@@ -1,0 +1,144 @@
+{
+    "cities": [
+        {
+            "cityId": 107,
+            "cityLocalizedName": "Calgary",
+            "branchId": 10,
+            "isDefaultBranchCity": false,
+            "cityCenterLocation": {
+                "latitude": 51.044888,
+                "longitude": -114.072398
+            }
+        },
+        {
+            "cityId": 106,
+            "cityLocalizedName": "Edmonton",
+            "branchId": 10,
+            "isDefaultBranchCity": true,
+            "cityCenterLocation": {
+                "latitude": 53.5420192,
+                "longitude": -113.5030326
+            }
+        },
+        {
+            "cityId": 94,
+            "cityLocalizedName": "Gatineau",
+            "branchId": 1,
+            "isDefaultBranchCity": false,
+            "cityCenterLocation": {
+                "latitude": 45.436437,
+                "longitude": -75.731684
+            }
+        },
+        {
+            "cityId": 92,
+            "cityLocalizedName": "Halifax",
+            "branchId": 3,
+            "isDefaultBranchCity": true,
+            "cityCenterLocation": {
+                "latitude": 44.65,
+                "longitude": -63.6
+            }
+        },
+        {
+            "cityId": 97,
+            "cityLocalizedName": "Kingston",
+            "branchId": 2,
+            "isDefaultBranchCity": false,
+            "cityCenterLocation": {
+                "latitude": 44.230994,
+                "longitude": -76.490662
+            }
+        },
+        {
+            "cityId": 59,
+            "cityLocalizedName": "Montréal",
+            "branchId": 1,
+            "isDefaultBranchCity": true,
+            "cityCenterLocation": {
+                "latitude": 45.528638,
+                "longitude": -73.580039
+            }
+        },
+        {
+            "cityId": 93,
+            "cityLocalizedName": "Ottawa",
+            "branchId": 2,
+            "isDefaultBranchCity": true,
+            "cityCenterLocation": {
+                "latitude": 45.416667,
+                "longitude": -75.7
+            }
+        },
+        {
+            "cityId": 96,
+            "cityLocalizedName": "Paris",
+            "branchId": 4,
+            "isDefaultBranchCity": true,
+            "cityCenterLocation": {
+                "latitude": 48.857515,
+                "longitude": 2.351546
+            }
+        },
+        {
+            "cityId": 90,
+            "cityLocalizedName": "Québec",
+            "branchId": 1,
+            "isDefaultBranchCity": false,
+            "cityCenterLocation": {
+                "latitude": 46.804425,
+                "longitude": -71.228328
+            }
+        },
+        {
+            "cityId": 89,
+            "cityLocalizedName": "Sherbrooke",
+            "branchId": 1,
+            "isDefaultBranchCity": false,
+            "cityCenterLocation": {
+                "latitude": 45.403612,
+                "longitude": -71.901534
+            }
+        },
+        {
+            "cityId": 103,
+            "cityLocalizedName": "SW Ontario",
+            "branchId": 2,
+            "isDefaultBranchCity": false,
+            "cityCenterLocation": {
+                "latitude": 43.25683113983465,
+                "longitude": -79.8690448711648
+            }
+        },
+        {
+            "cityId": 105,
+            "cityLocalizedName": "Toronto",
+            "branchId": 2,
+            "isDefaultBranchCity": false,
+            "cityCenterLocation": {
+                "latitude": 43.675484,
+                "longitude": -79.363987
+            }
+        },
+        {
+            "cityId": 110,
+            "cityLocalizedName": "Trois-Rivières",
+            "branchId": 1,
+            "isDefaultBranchCity": false,
+            "cityCenterLocation": {
+                "latitude": 46.342988,
+                "longitude": -72.542064
+            }
+        },
+        {
+            "cityId": 112,
+            "cityLocalizedName": "Victoriaville",
+            "branchId": 1,
+            "isDefaultBranchCity": false,
+            "cityCenterLocation": {
+                "latitude": 46.05568481451941,
+                "longitude": -71.95507191416485
+            }
+        }
+    ]
+}

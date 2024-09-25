@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div#root {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
