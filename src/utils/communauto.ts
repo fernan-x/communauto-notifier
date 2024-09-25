@@ -1,3 +1,5 @@
+import { GetCarsResponse } from "../types/communauto";
+
 // https://restapifrontoffice.reservauto.net/ReservautoFrontOffice/index.html#/
 export const fetchCars = async () => {
     const branchId = 1;
@@ -6,13 +8,13 @@ export const fetchCars = async () => {
     console.log('Url: %s', url);
 
     const result = await fetch(url);
-    const json = await result.json();
+    const json = await result.json() as GetCarsResponse;
 
     if (!json.d || !json.d.Vehicles) {
       throw new Error('Invalid response');
     }
 
-    return json.d.Vehicles.map((vehicle: any) => ({
+    return json.d.Vehicles.map((vehicle) => ({
       brand: vehicle.CarBrand,
       model: vehicle.CarModel,
       plate: vehicle.CarPlate,
