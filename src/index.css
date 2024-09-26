@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 div#root {
-  min-width: 300px;
+  min-width: 400px;
   display: flex;
   flex-direction: column;
+  background-color: rgb(165 180 251 / var(--tw-bg-opacity));
 }

@@ -5,4 +5,5 @@ export type Car = {
     color: string;
     lat: number;
     lng: number;
+    distance: number;
 }

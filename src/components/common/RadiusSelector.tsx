@@ -1,3 +1,5 @@
+import Input from "../ui/Input";
+
 interface RadiusSelectorProps {
     radius: number;
     setRadius: React.Dispatch<React.SetStateAction<number>>;
@@ -13,9 +15,9 @@ const RadiusSelector = ({
     };
 
     return (
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col justify-center">
             <label htmlFor="radius">Radius (km)</label>
-            <input type="number" id="radius" name="radius" min="1" max="100" value={radius} onChange={onHandleChange} />
+            <Input type="number" id="radius" name="radius" min="1" max="100" value={radius} onChange={onHandleChange} />
         </div>
     );
 };
